@@ -1,0 +1,58 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "username": "user1",
+        "password": "hashed_password1",
+        "email": "user1@example.com",
+        "watchlist": [1, 3]
+      },
+      {
+        "id": 2,
+        "username": "user2",
+        "password": "hashed_password2",
+        "email": "user2@example.com",
+        "watchlist": [2]
+      }
+    ],
+    "movies": [
+      {
+        "id": 1,
+        "title": "Inception",
+        "description": "A thief who enters the dreams of others to steal secrets.",
+        "releaseDate": "2010-07-16",
+        "genre": ["Sci-Fi", "Thriller"],
+        "director": "Christopher Nolan",
+        "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Elliot Page"]
+      },
+      {
+        "id": 2,
+        "title": "The Shawshank Redemption",
+        "description": "Two imprisoned men bond over a number of years.",
+        "releaseDate": "1994-09-23",
+        "genre": ["Drama"],
+        "director": "Frank Darabont",
+        "actors": ["Tim Robbins", "Morgan Freeman"]
+      },
+      {
+        "id": 3,
+        "title": "Interstellar",
+        "description": "A team of explorers travel through a wormhole in space.",
+        "releaseDate": "2014-11-07",
+        "genre": ["Sci-Fi", "Adventure"],
+        "director": "Christopher Nolan",
+        "actors": ["Matthew McConaughey", "Anne Hathaway", "Jessica Chastain"]
+      }
+    ],
+    "watchlists": [
+      {
+        "userId": 1,
+        "movies": [1, 3]
+      },
+      {
+        "userId": 2,
+        "movies": [2]
+      }
+    ]
+  }
+  
